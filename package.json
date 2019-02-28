@@ -1,0 +1,11 @@
+{
+  "name": "contactstuff",
+  "version": "1.0.0",
+  "description": "A very simple custom element that can ease the presentation of contact info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anders Mogensen <anders@dostuff.dk>",
+  "license": "ISC"
+}
