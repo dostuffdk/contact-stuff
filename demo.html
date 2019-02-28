@@ -13,7 +13,9 @@
             content: 'This will not work in your browser.';
         }
     </style>
-    <script>
+    <script type="module">
+        import ContactStuff from './src/contact-stuff.js';
+
         (() => {
             if (!('customElements' in window)) {
                 document.addEventListener('DOMContentLoaded', () => {
