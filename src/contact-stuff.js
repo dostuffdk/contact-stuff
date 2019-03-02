@@ -1,5 +1,5 @@
 const template = document.createElement('template');
-template.innerHTML = `<div>contact-stuff</div>`;
+template.innerHTML = `<span><slot></slot></span>`;
 
 export default class extends HTMLElement {
 
