@@ -4,8 +4,12 @@
   "description": "A very simple custom element that can ease the presentation of contact info",
   "main": "index.js",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Anders Mogensen <anders@dostuff.dk>",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
 }
